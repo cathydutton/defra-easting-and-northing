@@ -1,0 +1,4 @@
+{
+  "sass": ["/assets/scss/defra-easting-and-northing.scss"],
+  "nunjucksPaths": ["/views/nunjucks"]
+}

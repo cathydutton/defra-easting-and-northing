@@ -1,0 +1,35 @@
+
+{% macro demoMacro(params) %}
+  <h1>This is a demo</h1>
+
+  <div class="form-group-easting-northing">
+    <fieldset class="govuk-fieldset">
+        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+        <h1 class="govuk-fieldset__heading">
+          Find location by easting and northing
+        </h1>
+      </legend>
+
+      <span class="govuk-hint">
+       For example, 123456 123456
+      </span>
+
+      <div class="govuk-form-group defra-form-group__easting">
+        <label class="govuk-label" for="easting">
+          Easting
+          <span class="govuk-visually-hidden">Easting line 1 of 2</span>
+        </label>
+        <input class="govuk-input" id="easting" name="easting" type="number">
+      </div>
+
+      <div class="govuk-form-group defra-form-group__northing">
+        <label class="govuk-label" for="northing">
+        Northing
+          <span class="govuk-visually-hidden">northing line 2 of 2</span>
+        </label>
+        <input class="govuk-input" id="northing" name="Northing" type="number">
+      </div>
+    
+    </fieldset>
+  </div>
+{% endmacro %}
