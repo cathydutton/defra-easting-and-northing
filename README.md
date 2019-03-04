@@ -1,4 +1,4 @@
-# Defra flood warning layout
+# Defra easting and northing number input
 
 Defra pattern for asking for easting and northing values in the Gov.uk Prototype kit
 
@@ -8,10 +8,12 @@ Defra pattern for asking for easting and northing values in the Gov.uk Prototype
 
 ## How to include
 
-Set the class name and banner text values at the top of the page.
+Include the macro in the prototype kit page template
 
 ```
+{% from "defra-easting-and-northing/macro.njk" import demoMacro %}
 
+{{ demoMacro({ }) }}
 ```
 
 
